@@ -1,16 +1,24 @@
-# flutter_currency_change_api
+# Currency Converter App (Flutter)
 
-A new Flutter project.
+A simple Flutter application that fetches real-time currency exchange rates using the [ExchangeRate-API](https://www.exchangerate-api.com/) and allows users to convert amounts between different currencies.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetch real-time currency exchange rates
+- Select base currency from dropdown
+- Convert amounts between currencies
+- Displays last update time and next update
+- Simple, responsive UI built with Flutter
 
-A few resources to get you started if this is your first Flutter project:
+# Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed
+- API key from [ExchangeRate-API](https://www.exchangerate-api.com/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Asrar-Ashraf/Currency_Rate_Check.git
+cd currency_converter_flutter
